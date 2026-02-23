@@ -38,12 +38,12 @@ Possuo sólido background em testes estruturais (White-box), validação de APIs
 
 <br/>
 
-<!--### 📊 Estatísticas
+<### 📊 Estatísticas
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=Micvianna&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" height="195" alt="Estatísticas do GitHub" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Micvianna&theme=tokyonight&custom_title=Tecnologias&langs_count=6" height="195" alt="Tecnologias mais utilizadas" />
-</div-->
+</div>
 
 <p align="left">
 <img align="left" alt="Python" title="Python" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
