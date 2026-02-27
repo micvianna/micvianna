@@ -4,9 +4,7 @@
 
 
 
-Profissional de Quality Assurance com mais de 13 anos de experiência na garantia de qualidade de sistemas de missão crítica. Atualmente, minha atuação está focada em AI Safety e testes de Inteligência Artificial. Combino automação robusta (Python/Pytest, Robot Framework, Cypress) com a validação e orquestração de Sistemas Multi-Agentes (CrewAI, LangChain, AgentOps) e pipelines RAG. 
-
-Possuo sólido background em testes estruturais (White-box), validação de APIs, manipulação de banco de dados e integração contínua (CI/CD), atuando para mitigar alucinações e garantir a confiabilidade de saídas não determinísticas em produtos de IA.
+Engenheiro de QA Sênior & SDET com mais de 13 anos de experiência, em transição para Quality Assurance de IA/LLM. Atualmente combinando fortes habilidades de automação em Python (Pytest) com experiência prática na construção e teste de Sistemas Multi-Agentes (utilizando CrewAI e AgentOps). Minha especialidade vai além dos testes funcionais tradicionais; concentro-me em AI Safety (Segurança de IA), validação de pipelines RAG e mitigação de alucinações de LLM. Trago uma combinação única de proficiência em testes 'White-box' (validação complexa de Dados/SQL) e práticas modernas de engenharia de IA para garantir a confiabilidade em produtos de IA não determinísticos. Possuo domínio em infraestrutura de testes, utilizando Docker para conteinerizar e orquestrar ambientes isolados com ferramentas como OpenClaw AI e n8n. Experiência em CI/CD (Azure DevOps/Jenkins) e apto a projetar frameworks de testes robustos e escaláveis para soluções de IA de ponta.
 
 <p align="left">
     <a href="https://www.linkedin.com/in/michelrviana">
