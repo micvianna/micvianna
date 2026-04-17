@@ -1,6 +1,6 @@
 # 👨‍💻 Michel Ribeiro Viana
 
-**`Senior QA Engineer | Automação & Especialista em Testes de IA (SDET)`**
+**`Senior QA Engineer | Automação & Especialista em Testes com IA (SDET)`**
 
 
 
