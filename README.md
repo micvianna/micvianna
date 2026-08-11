@@ -1,67 +1,84 @@
-# 👨‍💻 Michel Ribeiro Viana
+# Michel Ribeiro Viana
 
-**`Senior QA Engineer | Automação & Especialista em Testes com IA (SDET)`**
+**QA Sênior | Automação de Testes | Testes de API | IA aplicada em laboratórios técnicos**
 
+Profissional de Quality Assurance com foco em validação funcional, automação e investigação de falhas. Neste GitHub, mantenho demonstrações técnicas e estudos reproduzíveis em Robot Framework, Playwright, Cypress, Python e sistemas multiagentes.
 
+Os repositórios distinguem explicitamente:
 
-Engenheiro de QA Sênior & SDET com mais de 13 anos de experiência, em transição para Quality Assurance de IA/LLM. Atualmente combinando fortes habilidades de automação em Python (Pytest) com experiência prática na construção e teste de Sistemas Multi-Agentes (utilizando CrewAI e AgentOps). Minha especialidade vai além dos testes funcionais tradicionais; concentro-me em AI Safety (Segurança de IA), validação de pipelines RAG e mitigação de alucinações de LLM. Trago uma combinação única de proficiência em testes 'White-box' (validação complexa de Dados/SQL) e práticas modernas de engenharia de IA para garantir a confiabilidade em produtos de IA não determinísticos. Possuo domínio em infraestrutura de testes, utilizando Docker para conteinerizar e orquestrar ambientes isolados com ferramentas como OpenClaw AI e n8n. Experiência em CI/CD (Azure DevOps/Jenkins) e apto a projetar frameworks de testes robustos e escaláveis para soluções de IA de ponta.
+- validação estrutural de execução funcional real;
+- laboratório/protótipo de aplicação pronta;
+- dados sintéticos de dados operacionais;
+- resultados reproduzidos de resultados apenas esperados.
 
-<p align="left">
-    <a href="https://www.linkedin.com/in/michelrviana">
-        <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-    </a>
-    <a href="https://github.com/Micvianna?tab=repositories&sort=stargazers">
-        <img alt="Total de estrelas" title="Total de estrelas GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Micvianna?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas" />
-    </a>
-    <a href="https://github.com/Micvianna?tab=followers">
-        <img alt="Seguidores" title="Me siga no GitHub" src="https://custom-icon-badges.demolab.com/github/followers/Micvianna?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white" />
-    </a>
-</p>
+## Projetos em destaque
 
----
+### [`bhrtech-robot-tests`](https://github.com/micvianna/bhrtech-robot-tests)
 
-### ⚙️ Stack Tecnológico e Ferramentas
+Suíte em Robot Framework com Browser Library/Playwright e RequestsLibrary, organizada em cenários funcionais, E2E, API e integração.
 
-**🤖 Inteligência Artificial, LLMs & Multi-Agentes:**
-> CrewAI, LangChain, LangGraph, LlamaIndex, Agnos Framework, AgentOps, LangSmith, OpenAI, Claude, DeepSeek, Qwen, Grok, Groq, OpenRouter, n8n, Supabase, Tavily, Serper, GitHub Copilot.
+- GitHub Actions executa validação estrutural por `--dryrun`.
+- Execuções com efeitos externos são separadas do CI estático.
+- README documenta escopo, comandos e limitações observáveis.
 
-**🛠️ Automação de Testes & QA:**
-> Python (Pytest), Robot Framework, Cypress, Selenium WebDriver, BDD (Gherkin), Bruno, Postman, SoapUI, Zephyr Scale.
+### [`CrewAI_imobiliaria`](https://github.com/micvianna/CrewAI_imobiliaria)
 
-**🚀 DevOps, CI/CD & Gestão:**
-> Azure DevOps, Jenkins, GitHub Actions, Git, Jira, Trello, Scrum/Kanban.
+Laboratório multiagente em Python/Jupyter com CrewAI, LangChain, ChromaDB e dados imobiliários sintéticos.
 
-**🗄️ Bancos de Dados & Infraestrutura:**
-> Oracle (PL/SQL), SQL Server, MySQL, MongoDB, Shell Scripting, Linux, Windows, macOS.
+- Cinco agentes e cinco tarefas em processo sequencial.
+- Busca local usa uma collection Chroma efêmera e idempotente.
+- A construção estrutural funciona sem iniciar o `kickoff` externo.
+- A geração final requer modelo e credencial configurados pelo usuário.
 
-<br/>
+### [`projetoTrelloAutomacao`](https://github.com/micvianna/projetoTrelloAutomacao)
 
-<!--### 📊 Estatísticas
+Demonstração de testes de API com Cypress para o ciclo de board, lista e card.
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Micvianna&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" height="195" alt="Estatísticas do GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Micvianna&theme=tokyonight&custom_title=Tecnologias&langs_count=6" height="195" alt="Tecnologias mais utilizadas" />
-</div-->
+- Credenciais são fornecidas somente por variáveis de ambiente.
+- O fluxo inclui limpeza dos recursos criados.
+- A estrutura foi validada localmente com mock; a API real depende de credenciais Trello autorizadas.
 
-<p align="left">
-<img align="left" alt="Python" title="Python" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-<img align="left" alt="Cypress" title="Cypress" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-original.svg" />
-<img align="left" alt="Selenium" title="Selenium" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg" />
-<img align="left" alt="Pytest" title="Pytest" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original.svg" />
-<img align="left" alt="Bash" title="Shell Scripting" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
-<img align="left" alt="Git" title="Git" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-<img align="left" alt="GitHub" title="GitHub" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
-<img align="left" alt="Jenkins" title="Jenkins" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" />
-<img align="left" alt="Azure" title="Azure DevOps" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" />
-<img align="left" alt="Jira" title="Jira" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" />
-<img align="left" alt="Trello" title="Trello" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-plain.svg" />
-<img align="left" alt="Postman" title="Postman" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-<img align="left" alt="Oracle" title="Oracle" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" />
-<img align="left" alt="MySQL" title="MySQL" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
-<img align="left" alt="SQL Server" title="SQL Server" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
-<img align="left" alt="MongoDB" title="MongoDB" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
-<img align="left" alt="Supabase" title="Supabase" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" />
-<img align="left" alt="Linux" title="Linux" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-<img align="left" alt="Windows" title="Windows" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" />
-<img align="left" alt="macOS" title="macOS" width="35px" style="padding-right: 10px; padding-bottom: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
-</p>
+### [`portifolio`](https://github.com/micvianna/portifolio)
+
+Repositório público do portfólio, mantido separadamente dos projetos de automação e laboratórios.
+
+## Tecnologias demonstradas nos repositórios
+
+**QA e automação**
+
+- Robot Framework
+- Playwright / Browser Library
+- Cypress
+- Selenium
+- Python
+- JavaScript
+
+**APIs e integração**
+
+- RequestsLibrary
+- Cypress API testing
+- REST
+- SQL / `pyodbc` em automações legadas
+
+**CI e engenharia**
+
+- GitHub Actions
+- Git
+- ambientes virtuais Python
+- gerenciamento de dependências com npm e `uv`
+
+**IA aplicada — laboratórios**
+
+- CrewAI
+- LangChain
+- ChromaDB
+- AgentOps
+- Jupyter Notebook
+
+## Critério de publicação
+
+Projetos de estudo são descritos como laboratório ou template. Não apresento dry-run como aprovação funcional, nem execução dependente de credencial externa como validada quando ela não foi realizada.
+
+## Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Michel_Ribeiro_Viana-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michelrviana)
